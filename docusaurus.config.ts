@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
+  title: 'Codec Wiki',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -58,7 +58,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Codec Wiki',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -66,11 +66,11 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'reinstallOperationSystemSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: '重装系统',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        // {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
